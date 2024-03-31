@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="w-full h-screen bg-black">
+        <div class="image-container h-screen w-full relative">
+
+            <div class="maincard w-full z-[5] absolute h-screen     ">
+                <img class="h-full w-full object-cover"
+                    src=""
+                    alt="">
+            </div>
+            <div class="incomingcard w-full z-[2] absolute h-screen ">
+                <img class="h-full w-full object-cover"
+                    src=""
+                    alt="">
+            </div>
+
+        </div>
+
+        <div class="h-screen w-full absolute top-0 left-0 z-[7] flex flex-col justify-between ">
+
+            <div class="navbar flex justify-between items-center p-5">
+
+                <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
+                    <img class="h-full w-full object-cover"
+                        src=""
+                        alt="">
+                </div>
+                <h2 class="text-semibold text-white text-2xl capitalize">they liked you</h2>
+                <div
+                    class="chaticon flex justify-center items-center h-[2.9rem] w-[2.9rem] bg-white/20 rounded-full relative">
+                    <i class="ri-chat-3-fill"></i>
+                    <div
+                        class="badge top-0 left-8 absolute bg-red-600 rounded-full flex justify-center items-center h-[1.2rem] w-[1.2rem]">
+                        <h5 class="text-[15px]"></h5>
+                    </div>
+                    </i>
+                </div>
+
+            </div>
+           <div class="details-container w-full">
+            <div class="details w-full p-5 px-2">
+                <div class="element location flex gap-4">
+                    <i
+                        class=" w-[1.6rem] h-[1.6rem] bg-white/25 ri-corner-left-up-line flex items-center justify-center rounded-full "></i>
+                    <h2 shadow-md class="text-white capitalize text-2xl">USA , California</h2>
+                </div>
+                <div class="element name capitalize flex gap-2 text-white mt-1">
+                    <h2 class="text-6xl">Victoria</h2>
+                    <h2 class="text-7xl opacity-55">20</h2>
+                </div>
+                <div class="element tags gap-5 flex mt-5">
+                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                        <i class=" ri-music-2-fill"></i>
+                        <h2>music</h2>  
+                    </div>
+                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                        <i class="ri-music-2-fill"></i>
+                        <h2>music</h2>
+                    </div>
+                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                        <i class="ri-music-2-fill"></i>
+                        <h2>music</h2>
+                    </div>
+                </div>
+                
+                <div class="element bio text-white/75 m-2 ">
+                    <h2>Bio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo saepe consequatur illum asperiores alias. Delectus ea odit voluptatibus voluptas laudantium iusto voluptates velit veniam.</p>
+                </div>
+                <div class="flex gap-7 items-center mt-5 p-5">
+                    <button class="cross bg-white/50 w-1/2 text-4xl rounded-xl"><i class="ri-close-line"></i></button>
+                    <button class="accept bg-[#FC5149] text-white w-1/2 text-4xl rounded-xl"><i class="ri-heart-fill"></i></button>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

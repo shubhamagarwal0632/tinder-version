@@ -1,0 +1,11 @@
+.chaticon{
+    /* filter: invert(-1); */
+    color: white;
+    /* font-size: 5vw; */
+}
+.tags i{
+    color: black;
+}
+.details-container{
+    background: linear-gradient( to bottom, transparent , rgba(0, 0, 0, 0.748));
+}
