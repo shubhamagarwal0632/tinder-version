@@ -191,6 +191,15 @@ accept.addEventListener('click', () => {
         stagger: 0.06,
         duration: 0.5
     })
+    
     // console.log('clicked')
+})
+gsap.to('.calling-icon',{
+    y:-20,
+    duration:.5,
+    yoyo:-1,
+    scrub:true,
+    repeat:Infinity
+
 })
 getdata();
