@@ -15,15 +15,60 @@
         <div class="image-container h-screen w-full relative">
 
             <div class="maincard w-full z-[5] absolute h-screen     ">
-                <img class="h-full w-full object-cover"
-                    src=""
-                    alt="">
+                <img class="h-full w-full object-cover" src="" alt="">
             </div>
             <div class="incomingcard w-full z-[2] absolute h-screen ">
-                <img class="h-full w-full object-cover"
-                    src=""
-                    alt="">
+                <img class="h-full w-full object-cover" src="" alt="">
             </div>
+
+            <div class="video-calling-card w-full z-[1] hidden absolute h-screen flex items-center justify-center ">
+                <!-- <img class="h-full w-full object-cover relative"
+
+                    src="https://images.unsplash.com/photo-1614786269829-d24616faf56d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""> -->
+                <div class="h-[15vh] flex items-center justify-center w-[85vw] bg-green-500 rounded relative">
+                    <h2 class="videotext h-full absolute top-5 text-white w-full text-2xl">Please try after some time
+                    </h2>
+
+                </div>
+                <!-- <button class="endcall px-[5vw] py-[5vw] absolute bg-red-600">End</button> -->
+            </div>
+
+            <!-- message card -->
+            <div class="message-card w-full z-[8] hidden absolute h-screen flex items-center justify-center ">
+                <!-- <img class="h-full w-full object-cover relative"
+
+                    src="https://images.unsplash.com/photo-1614786269829-d24616faf56d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""> -->
+                <div class=" h-[85vh] w-[85vw] bg-green-500 rounded relative justify-center">
+                    <div class="flex bg-black items-center px-5">
+                        <h1 class="w-full m-auto text-white text-2xl p-2 h-[15vw]">Your Message</h1>
+                        <h2 class="closemessage h-[8vw] flex items-center justify-center w-[9vw] bg-white rounded-full"><i class="ri-close-large-line"></i></h2>
+                    </div>
+                    <div class="cardmessage">
+
+                       
+                        <!-- <h2 class="cardmessage-data w-[80vw] rounded m-5 flex items-center justify-between m-auto text-white text-2xl p-2 h-[15vw] bg-white/50 mt-2">
+                            <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
+                                <img class="h-full w-full object-cover"
+                                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="">
+                            </div>
+    
+                            <p class="text-2xl p-2 text-black"></p>
+    
+                        </h2> -->
+                    </div>
+                   
+                    
+
+
+                </div>
+                
+                <!-- <button class="endcall px-[5vw] py-[5vw] absolute bg-red-600">End</button> -->
+            </div>
+
+
 
         </div>
 
@@ -32,13 +77,11 @@
             <div class="navbar flex justify-between items-center p-5">
 
                 <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
-                    <img class="h-full w-full object-cover"
-                        src=""
-                        alt="">
+                    <img class="h-full w-full object-cover" src="" alt="">
                 </div>
                 <h2 class="text-semibold text-white text-2xl capitalize">they liked you</h2>
                 <div
-                    class="chaticon flex justify-center items-center h-[2.9rem] w-[2.9rem] bg-white/20 rounded-full relative">
+                    class="chaticon cursor-pointer flex justify-center items-center h-[2.9rem] w-[2.9rem] bg-white/20 rounded-full relative">
                     <i class="ri-chat-3-fill"></i>
                     <div
                         class="badge top-0 left-8 absolute bg-red-600 rounded-full flex justify-center items-center h-[1.2rem] w-[1.2rem]">
@@ -48,47 +91,58 @@
                 </div>
 
             </div>
-           <div class="details-container w-full">
-            <div class="details w-full p-5 px-2">
-                <div class="element location flex gap-4">
-                    <i
-                        class=" w-[1.6rem] h-[1.6rem] bg-white/25 ri-corner-left-up-line flex items-center justify-center rounded-full "></i>
-                    <h2 shadow-md class="text-white capitalize text-2xl">USA , California</h2>
-                </div>
-                <div class="element name capitalize flex items-center space-between gap-2 text-white mt-1">
-                    <h2 class="text-6xl">Victoria</h2>
-                    <h2 class="text-7xl opacity-55">20</h2>
-                    <h2 class=" calling-icon h-[10vw] flex items-center justify-center w-[10vw] bg-green-500 rounded-full ">
-                        <i class="text-4xl ri-phone-fill"></i></i></h2>
-                </div>
-                <div class="element tags gap-5 flex mt-5">
-                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
-                        <i class=" ri-music-2-fill"></i>
-                        <h2>music</h2>  
+            <div class="details-container w-full">
+                <div class="details w-full p-5 px-2">
+                    <div class="element location flex gap-4">
+                        <i
+                            class=" w-[1.6rem] h-[1.6rem] bg-white/25 ri-corner-left-up-line flex items-center justify-center rounded-full "></i>
+                        <h2 shadow-md class="text-white capitalize text-2xl">USA , California</h2>
                     </div>
-                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
-                        <i class="ri-music-2-fill"></i>
-                        <h2>music</h2>
+                    <div class="element name capitalize flex items-center space-between gap-2 text-white mt-1">
+                        <h2 class="text-6xl">Victoria</h2>
+                        <h2 class="text-7xl opacity-55">20</h2>
+                        <h2
+                            class=" calling-icon h-[10vw] flex items-center justify-center w-[10vw] bg-green-500 rounded-full ">
+                            <!-- <a href="index2.html"> -->
+                            <i class="text-4xl ri-phone-fill cursor-pointer"></i>
+
+                            <!-- </a>         -->
+                        </h2>
                     </div>
-                    <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
-                        <i class="ri-music-2-fill"></i>
-                        <h2>music</h2>
+                    <div class="element tags gap-5 flex mt-5">
+                        <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                            <i class=" ri-music-2-fill"></i>
+                            <h2>music</h2>
+                        </div>
+                        <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                            <i class="ri-music-2-fill"></i>
+                            <h2>music</h2>
+                        </div>
+                        <div class="tag flex items-center gap-2 rounded-full bg-white/50 px-5 py-2">
+                            <i class="ri-music-2-fill"></i>
+                            <h2>music</h2>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="element bio text-white/75 m-2 ">
-                    <h2>Bio</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo saepe consequatur illum asperiores alias. Delectus ea odit voluptatibus voluptas laudantium iusto voluptates velit veniam.</p>
-                </div>
-                <div class="flex gap-7 items-center mt-5 p-5">
-                    <button class="cross bg-white/50 w-1/2 text-4xl rounded-xl"><i class="ri-close-line"></i></button>
-                    <button class="accept bg-[#FC5149] text-white w-1/2 text-4xl rounded-xl"><i class="ri-heart-fill"></i></button>
+
+                    <div class="element bio text-white/75 m-2 ">
+                        <h2>Bio</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo saepe consequatur
+                            illum asperiores alias. Delectus ea odit voluptatibus voluptas laudantium iusto voluptates
+                            velit veniam.</p>
+                    </div>
+                    <div class="flex gap-7 items-center mt-5 p-5">
+                        <button class="cross bg-white/50 w-1/2 text-4xl rounded-xl"><i
+                                class="ri-close-line"></i></button>
+                        <button class="accept bg-[#FC5149] text-white w-1/2 text-4xl rounded-xl"><i
+                                class="ri-heart-fill"></i></button>
+                    </div>
                 </div>
             </div>
-           </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 

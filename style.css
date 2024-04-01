@@ -5,7 +5,15 @@
 }
 .tags i{
     color: black;
-}
+}   
 .details-container{
     background: linear-gradient( to bottom, transparent , rgba(0, 0, 0, 0.748));
+}
+/* .div{
+    height: 100vh;
+    width: 100%;
+    background-color: cornflowerblue;
+} */
+.video-calling-card{
+    /* background-color: steelblue; */
 }
