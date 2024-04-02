@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="w-full h-screen bg-black">
+    <div class="fulldisplay w-full h-screen bg-black">
         <div class="image-container h-screen w-full relative">
 
             <div class="maincard w-full z-[5] absolute h-screen     ">
@@ -40,14 +40,16 @@
 
                     src="https://images.unsplash.com/photo-1614786269829-d24616faf56d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""> -->
-                <div class=" h-[85vh] w-[85vw] bg-green-500 rounded relative justify-center">
-                    <div class="flex bg-black items-center px-5">
-                        <h1 class="w-full m-auto text-white text-2xl p-2 h-[15vw]">Your Message</h1>
-                        <h2 class="closemessage h-[8vw] flex items-center justify-center w-[9vw] bg-white rounded-full"><i class="ri-close-large-line"></i></h2>
+                <div class=" min-h-[25vh] pb-5 w-[85vw] bg-[#191919] rounded relative">
+                    <div class="messagebox1 px-5 h-[10vh] ">
+                        <h2 class="closemessage h-[4vh] flex items-center justify-center w-[9vw] bg-white rounded-full">
+                            <i class="ri-close-large-line"></i>
+                        </h2>
+                        <h1 class="w-full flex items-center justify-center text-white text-xl p-2">Your Message</h1>
                     </div>
                     <div class="cardmessage">
 
-                       
+
                         <!-- <h2 class="cardmessage-data w-[80vw] rounded m-5 flex items-center justify-between m-auto text-white text-2xl p-2 h-[15vw] bg-white/50 mt-2">
                             <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
                                 <img class="h-full w-full object-cover"
@@ -59,13 +61,21 @@
     
                         </h2> -->
                     </div>
-                   
-                    
+
+
 
 
                 </div>
-                
+
                 <!-- <button class="endcall px-[5vw] py-[5vw] absolute bg-red-600">End</button> -->
+            </div>
+            <!-- profiledata -->
+            <div
+                class="profiledatabox rounded-2xl p-5 m-5 message-card w-[85vw] z-[8] hidden absolute h-[45vw] bg-green-500">
+                <h2 class="closemessageprofile h-[8vw] flex items-center justify-center w-[9vw] bg-white rounded-full">
+                    <i class="ri-close-large-line"></i>
+                </h2>
+
             </div>
 
 
@@ -74,10 +84,11 @@
 
         <div class="h-screen w-full absolute top-0 left-0 z-[7] flex flex-col justify-between ">
 
+            <!-- navbar -->
             <div class="navbar flex justify-between items-center p-5">
 
                 <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
-                    <img class="h-full w-full object-cover" src="" alt="">
+                    <img class="profiledata h-full w-full object-cover" src="" alt="">
                 </div>
                 <h2 class="text-semibold text-white text-2xl capitalize">they liked you</h2>
                 <div

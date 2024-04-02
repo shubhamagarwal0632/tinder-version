@@ -1,7 +1,7 @@
 let users = [
     {
         profilePic: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        displayPic: "https://images.unsplash.com/photo-1618085219724-c59ba48e08cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        displayPic: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         pendingMessage: "2",
         location: "pune,india",
         name: "laxita",
@@ -9,11 +9,15 @@ let users = [
 
             {
                 messageimg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "hello1"
+                value: "hello1",
+                name: "komal"
+
             },
             {
                 messageimg: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "namaste1"
+                value: "namaste1",
+                name: "sohini"
+
             },
 
         ],
@@ -30,7 +34,7 @@ let users = [
         bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde!",
         isFriend: null
     }, {
-        profilePic: "https://images.unsplash.com/photo-1618085219724-c59ba48e08cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        profilePic: "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         displayPic: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         pendingMessage: "5",
         location: "delhi,india",
@@ -39,11 +43,13 @@ let users = [
 
             {
                 messageimg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "hello2"
+                value: "hello2",
+                name: "kavita"
             },
             {
                 messageimg: "https://images.unsplash.com/photo-1616065297556-f05bc00c9a3e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "namaste2"
+                value: "namaste2",
+                name: "rahani"
             },
 
         ],
@@ -67,12 +73,14 @@ let users = [
         name: "seenika", pendingMessagevalue: [
 
             {
-                messageimg: "https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "hello3"
+                messageimg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                value: "hello3",
+                name: "laximita"
             },
             {
-                messageimg: "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "namaste3"
+                messageimg: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                value: "namaste3",
+                name: "monira"
             },
 
         ],
@@ -90,18 +98,20 @@ let users = [
         isFriend: null
     }, {
         profilePic: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        displayPic: "https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=1570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        displayPic: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         pendingMessage: "9",
         location: "ajmer",
         name: "komal", pendingMessagevalue: [
 
             {
-                messageimg: "https://images.unsplash.com/photo-1618085219724-c59ba48e08cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "hello4"
+                messageimg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                value: "hello4",
+                name: "reena"
             },
             {
-                messageimg: "https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=1570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "namaste4"
+                messageimg: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                value: "namaste4",
+                name: "kavita"
             },
 
         ],
@@ -126,11 +136,13 @@ let users = [
 
             {
                 messageimg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "hello5"
+                value: "hello5",
+                name: "savita"
             },
             {
                 messageimg: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                value: "namaste5"
+                value: "namaste5",
+                name: "ravina"
             },
 
         ],
@@ -164,22 +176,43 @@ function setdata() {
 
     // cardmessagedata1.src = users[curr].profilePic;
     // cardmessagedata2.textContent = users[curr].pendingMessagevalue
+
+    // message box============================================================================
     let cluter2 = "";
-users[curr].pendingMessagevalue.map((item)=>{
-    cluter2+= `
-    <h2 class="cardmessage-data w-[80vw] rounded m-5 flex items-center justify-between m-auto text-white text-2xl p-2 h-[15vw] bg-white/50 mt-2">
-    <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
-        <img class="h-full w-full object-cover"
-            src=${item.messageimg}
-            alt="">
-    </div>
+    users[curr].pendingMessagevalue.map((item) => {
+        cluter2 += `
+        <h2
+        class="cardmessage-data w-[80vw] rounded m-5  items-center justify-between m-auto text-white text-2xl p-2 h-[15vh] bg-white/10 mt-2">
+        <div class="flex gap-5 p-[0.25vw] items-center justify-between">
+            <div class="flex gap-5 items-center">
+                <div class="h-[2.9rem] w-[2.9rem] rounded-full overflow-hidden">
+                    <img class="h-full w-full object-cover" src=${item.messageimg} alt="">
+                </div>
+                <div>
+                    <p class="text-white">${item.name}</p>
+                    <p class="text-xl text-white">${item.value}</p>
+                </div>
+            </div>
+            <h1 class="heartbtn text-white"><i class="heartlike ri-heart-fill"></i></h1>
 
-    <p class="text-2xl p-2 text-black">${item.value}</p>
+        </div>
 
-</h2>
+    </h2>
     `
-    document.querySelector(".cardmessage").innerHTML = cluter2;
-})
+        document.querySelector(".cardmessage").innerHTML = cluter2;
+        // heartlike=======================================================================
+        document.querySelector(".heartbtn").addEventListener("click", function () {
+            var heartlike = document.querySelector(".heartlike");
+            if (heartlike.style.color === "red") {
+                heartlike.style.color = "white";
+            } else {
+                heartlike.style.color = "red";
+            }
+        })
+    })
+
+
+
 
     let cluter = "";
     users[curr].interests.map((item) =>
@@ -290,23 +323,61 @@ gsap.to('.calling-icon', {
 getdata();
 
 let chaticon = document.querySelector(".chaticon");
+
+chaticon.addEventListener("click", function () {
+
+})
+
 chaticon.addEventListener('click', function () {
     let messagecard = document.querySelector(".message-card");
-
     messagecard.classList.remove("hidden");
     messagecard.classList.add("block");
     document.querySelector('.closemessage').addEventListener("click", function () {
-
-        messagecard.classList.remove("block");
-        messagecard.classList.add("hidden");
+        // document.querySelector('.image-container').addEventListener("click", function () {
+        setTimeout(() => {
+            messagecard.classList.remove("block");
+            messagecard.classList.add("hidden");
+        }, 1000);
+        gsap.to(messagecard, {
+            y: -200,
+            scale: 0,
+            opacity:0,
+            duration: 0.9,
+        })
     })
-    setTimeout(() => {
-        // messagecard.classList.remove("block");
-        // messagecard.classList.add("hidden");
-
-
-    }, 2500);
+    
+    gsap.set(messagecard, {
+        clearProps: "all" // Reset all properties
+    });
+    gsap.from(messagecard, {
+        y:-200,
+        scale: 0,
+        opacity:0,
+        duration: 0.9,
+    })
+    
 })
+// profiledata
+let profiledata = document.querySelector(".profiledata");
+profiledata.addEventListener('click', function () {
+    let profiledatabox = document.querySelector(".profiledatabox");
+
+    profiledatabox.classList.remove("hidden");
+    profiledatabox.classList.add("block");
+    document.querySelector(".closemessageprofile").addEventListener("click", function () {
+
+        profiledatabox.classList.remove("block");
+        profiledatabox.classList.add("hidden");
+    })
+    // document.querySelector('.closemessage').addEventListener("click", function () {
+
+    //     messagecard.classList.remove("block");
+    //     messagecard.classList.add("hidden");
+    // })
+})
+
+
+
 
 let callingicon = document.querySelector(".calling-icon");
 callingicon.addEventListener("click", function () {

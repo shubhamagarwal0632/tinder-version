@@ -17,3 +17,9 @@
 .video-calling-card{
     /* background-color: steelblue; */
 }
+.messagebox1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
